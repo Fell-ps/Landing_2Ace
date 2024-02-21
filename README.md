@@ -1,8 +1,8 @@
 Landing Page da Double Ace! 
 
 Logo:
-<img src="![LOGO OFICIAL](https://github.com/Fell-ps/Landing_2Ace/assets/123215496/82f5e6f0-28c2-49b0-a389-0558ccc521ad)
-" alt="Logo">
+![LOGO OFICIAL](https://github.com/Fell-ps/Landing_2Ace/assets/123215496/4645616d-acc6-45d6-a05a-1be5c8473a6d)
+
 
 Cores da marca: 
 #ffffff
