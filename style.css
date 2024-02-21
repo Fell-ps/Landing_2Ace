@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Strike&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background: #ffffff;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  max-width: 1120px;
+  margin: auto;
+  padding: 1.5rem 10rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: Protest Strike;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #5100ad;
+  text-transform: uppercase;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.linkConsultoria {
+  color: #fff2e7;
+  font-weight: 600;
+}
+
+.principal {
+  background: #ffffff;
+}
+
+.hero {
+  background: #5100ad;
+  max-width: 1120px;
+  height: 60vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+
+  overflow: clip;
+}
+
+.hero-conteudo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.hero-imagens-container {
+  max-width: 100%;
+  margin: -1rem;
+}
+
+.destaque {
+  font-family: Roboto;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.corESCOLHER {
+  color: #ffffff;
+}
+
+h1 {
+  font-family: Montserrat;
+  color: #fff2e7;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+hr {
+  border-color: #000000;
+}
+
+.hero-subtitulo {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero-imagens-container > figure > img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.botao-container {
+  width: 100%;
+  max-width: 1120px;
+  padding: 1rem;
+  margin: auto;
+  transform: translate("0, -50%");
+}
+
+button {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+
+  background: #5100ad;
+}
